@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "awsappsynctest-test-20190611132433-authRole",
+      "UnauthRoleArn": "arn:aws:iam::288093678599:role/awsappsynctest-test-20190611132433-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::288093678599:role/awsappsynctest-test-20190611132433-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "awsappsynctest-test-20190611132433-deployment",
+      "UnauthRoleName": "awsappsynctest-test-20190611132433-unauthRole",
+      "StackName": "awsappsynctest-test-20190611132433",
+      "StackId": "arn:aws:cloudformation:us-west-2:288093678599:stack/awsappsynctest-test-20190611132433/ed287a30-8c86-11e9-b461-06737af08cb6"
+    }
+  },
+  "api": {
+    "DnigamAppSyncApp": {
+      "service": "AppSync",
+      "output": {
+        "securityType": "API_KEY",
+        "GraphQLAPIIdOutput": "3ptc3ck3q5bapbdbylg2k4vvfe",
+        "GraphQLAPIEndpointOutput": "https://lemybpcn5vdn7jnhskxdzdcy34.appsync-api.us-west-2.amazonaws.com/graphql",
+        "additionalAuthenticationProviders": [],
+        "name": "DnigamAppSyncApp",
+        "region": "us-west-2",
+        "GraphQLAPIKeyOutput": "da2-56paoiy2lzeqnjtzqiz5y4rrqu"
+      },
+      "lastPushTimeStamp": "2019-06-11T20:25:35.625Z"
+    }
+  }
+}
